@@ -1,4 +1,132 @@
+/* Estilos para contenedores globales */
 .panel-container {
     display: flex;
-    
+    width: 100%;
+    height: 100vh;
+}
+
+.left-container {
+    flex-basis: 50%;
+    height: 100vh;
+    color: #DDF9F1;
+
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    overflow: hidden;
+
+}
+
+.right-container {
+    flex-basis: 50%;
+    height: 100vh;
+    color: #DDF9F1;
+
+    display: flex;
+
+    /* background-color: chocolate; */
+}
+
+/* Estilos para nombre, profesion, descripción*/
+.name-container {
+    width: 50%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 20%;
+}
+
+.name-container h1 {
+    font-size: 54px;
+}
+
+.name-container h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.name-container p {
+    font-size: 16px;
+    margin-top: 1rem;
+    font-weight: 300;
+    color: #8892b0;
+}
+
+/* Estilos para el navigator */
+.navi-container {
+    width: 50%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.navi-container ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.navi-container ul > li {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    color: #8892b0;
+    cursor: pointer;
+
+}
+
+
+.line-span {
+    display: inline-block;
+    width: 20px;
+    height: 1px;
+    background-color: #8892b0;
+    margin-right: 10px;
+    transition: width 0.3s ease, background-color 0.3s ease;
+}
+  
+.navi-text {
+    color: #8892b0;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.navi-container ul > li:hover .line-span {
+    width: 40px;
+    background-color: white;
+    transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+.navi-container ul > li:hover .navi-text {
+    color: white;
+    transition: color 0.3s ease;  
+}
+
+/* Estilos para socials */
+.socials-container {
+    width: 50%;
+    height: 20%;
+    display: flex;
+    align-items: last baseline;
+    margin-top: 5%;
+    gap: 10px
+}
+
+.socials-container a {
+    color: #8892b0;
+    font-size: 1.75rem;
+    transition: color 0.3s ease;
+}
+  
+.socials-container a:hover {
+    color: #ffffff;
 }
