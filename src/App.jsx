@@ -26,7 +26,7 @@ function App() {
           <div className='name-container'>
             <h1>Daniel Grajales</h1>
             <h3>Full Stack Developer</h3>
-            <p>I build web applications with a strong focus on accessibility, precision and maintainable systems.</p>
+            <p>I build web applications with a strong focus on scalability, structure, and usability.</p>
           </div>
 
           <div className='navi-container'>
@@ -70,9 +70,33 @@ function App() {
         </div>
 
         <div className='right-container'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Modi nulla ab similique dolorem consequuntur necessitatibus laborum,
-          ex minima sequi cumque praesentium ullam quis culpa accusantium magni! Mollitia facilis quos libero.
+          <div className='parag-container'>
+            <p>
+              I'm a full-stack developer who enjoys creating scalable, reliable, and user-friendly web applications.
+              I'm particularly drawn to complex projects where I can turn complex ideas into clear and intuitive user experiences.
+            </p>
+
+            <br />
+
+            <p>
+              Currently, I work as a Software Engineer at <strong> Staion S.A.S,</strong> where I contribute to the design and development of full-stack solutions.
+              My work focuses on improving development workflows, enhancing system performance, and ensuring that each application is scalable,
+              maintainable, and aligned with both user and business needs.
+            </p>
+
+            <br />
+
+            <p>
+              I worked at <strong> Bancolombia</strong>, where I contributed to the development of internal tools and supported the optimization of business processes.
+              My role involved improving user experience and helping deliver solutions that enhanced operational efficiency and decision-making.
+            </p>
+
+            <br />
+
+            <p>
+              In my spare time, I enjoy teaching others about programming, going for runs, exploring nature, and spending quality time with my family and pets.
+            </p>
+          </div>
         </div>
       </section>
     </>
