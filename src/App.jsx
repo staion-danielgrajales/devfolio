@@ -99,15 +99,68 @@ function App() {
           </div>
 
           <div className='experience-container'>
-            <ul>
-              <li>
-              Experience 1
+            <ul className='experience-list'>
+              <li className="experience-card">
+                <div className="experience-header">
+                    <h3 className="experience-title">
+                      Software Engineer · Staion
+                    </h3>
+                    <span className="experience-date">JUNE 2025 — PRESENT</span>
+                </div>
+
+                <p className="experience-description">
+                  Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product.
+                  Work closely with cross-functional teams, including developers, designers, and product managers, to implement and
+                  advocate for best practices in web accessibility.
+                </p>
+
+                <div className="tech-stack">
+                  <span className="tech-tag">JavaScript</span>
+                  <span className="tech-tag">React</span>
+                  <span className="tech-tag">Django</span>
+                </div>
               </li>
-              <li>
-              Experience 2
+
+              <li className="experience-card">
+                <div className="experience-header">
+                    <h3 className="experience-title">
+                      Software Engineer · Staion
+                    </h3>
+                    <span className="experience-date">JUNE 2025 — PRESENT</span>
+                </div>
+
+                <p className="experience-description">
+                  Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product.
+                  Work closely with cross-functional teams, including developers, designers, and product managers, to implement and
+                  advocate for best practices in web accessibility.
+                </p>
+
+                <div className="tech-stack">
+                  <span className="tech-tag">JavaScript</span>
+                  <span className="tech-tag">React</span>
+                  <span className="tech-tag">Django</span>
+                </div>
               </li>
-              <li>
-              Experience 3
+
+              <li className="experience-card">
+                <div className="experience-header">
+                    <h3 className="experience-title">
+                      Software Engineer · Staion
+                    </h3>
+                    <span className="experience-date">JUNE 2025 — PRESENT</span>
+                </div>
+
+                <p className="experience-description">
+                  Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product.
+                  Work closely with cross-functional teams, including developers, designers, and product managers, to implement and
+                  advocate for best practices in web accessibility.
+                </p>
+
+                <div className="tech-stack">
+                  <span className="tech-tag">JavaScript</span>
+                  <span className="tech-tag">React</span>
+                  <span className="tech-tag">Django</span>
+                </div>
               </li>
             </ul>
           </div>
