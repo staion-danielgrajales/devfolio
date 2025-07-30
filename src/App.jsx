@@ -97,6 +97,20 @@ function App() {
               In my spare time, I enjoy teaching others about programming, going for runs, exploring nature, and spending quality time with my family and pets.
             </p>
           </div>
+
+          <div className='experience-container'>
+            <ul>
+              <li>
+              Experience 1
+              </li>
+              <li>
+              Experience 2
+              </li>
+              <li>
+              Experience 3
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
     </>
