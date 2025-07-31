@@ -99,7 +99,7 @@
   
 .navi-text {
     color: #8892b0;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 600;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -179,17 +179,17 @@
 .experience-card {
     border-radius: 12px;
     padding: 1rem;
-    margin-bottom: 1.5rem;
     color: #ccd6f6;
     transition: all 0.2s ease-in-out;
     max-width: 700px;
+
+    margin-bottom: 0.5rem;
 }
 
 .experience-card:hover {
     box-shadow: 
-        0 5px 10px rgba(100, 255, 218, 0.15),
-        0 -5px 10px rgba(100, 255, 218, 0.05);
-    font-size: 16px ;
+        0 8px 20px rgba(100, 255, 218, 0.15),
+        0 -8px 20px rgba(100, 255, 218, 0.15);
 }
 
 .experience-header {
@@ -206,16 +206,16 @@
 }
 
 .experience-title {
-    font-size: 1.125rem;
+    font-size: 16px;
     font-weight: 600;
     color: #ccd6f6;
 }
  
 .experience-description {
-    font-size: 16px;
+    font-size: 14px;
+    margin-bottom: 1rem;
     color: #a8b2d1;
     line-height: 1.5rem;
-    margin-bottom: 1rem;
     text-align: justify;
 }
   
@@ -232,4 +232,95 @@
     padding: 0.35rem 0.75rem;
     border-radius: 0.5rem;
     font-weight: 500;
+}
+
+/* Estilos para la lista de proyectos */
+.project-container {
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+
+}
+
+.project-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: 20px;
+}
+
+.project-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+
+    border-radius: 12px;
+    padding: 1rem;
+    color: #ccd6f6;
+    transition: all 0.2s ease-in-out;
+    max-width: 700px;
+    margin-bottom: 0.5rem;
+}
+
+.project-card:hover {
+    box-shadow: 
+        0 8px 20px rgba(100, 255, 218, 0.15),
+        0 -8px 20px rgba(100, 255, 218, 0.15);
+}
+
+.preview-img {
+    width: 150px;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: 3px;
+    image-rendering: auto;
+}
+
+.project-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.project-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ccd6f6;
+}
+ 
+.project-description {
+    font-size: 14px;
+    margin-bottom: 1rem;
+    color: #a8b2d1;
+    text-align: justify;
+}
+
+.link-status {
+    all: unset;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+  
+.link-status:visited,
+.link-status:focus,
+.link-status:active {
+    color: inherit;
+    outline: none;
+    text-decoration: none;
+    box-shadow: none;
 }

@@ -3,6 +3,7 @@ import './assets/styles/App.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faDiscord, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import lomiPreview from './assets/images/lomi_preview.png'
 
 import { useEffect } from 'react';
 
@@ -70,7 +71,7 @@ function App() {
         </div>
 
         <div className='right-container'>
-          <div className='parag-container'>
+          <div className='parag-container' id='about'>
             <p>
               I'm a full-stack developer who enjoys creating scalable, reliable, and user-friendly web applications.
               I'm particularly drawn to complex projects where I can turn complex ideas into clear and intuitive user experiences.
@@ -98,7 +99,7 @@ function App() {
             </p>
           </div>
 
-          <div className='experience-container'>
+          <div className='experience-container' id='experience'>
             <ul className='experience-list'>
               <li className="experience-card">
                 <div className="experience-header">
@@ -109,9 +110,9 @@ function App() {
                 </div>
 
                 <p className="experience-description">
-                  Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product.
-                  Work closely with cross-functional teams, including developers, designers, and product managers, to implement and
-                  advocate for best practices in web accessibility.
+                  I contribute to the development of scalable, maintainable web applications from planning to deployment. 
+                  I work on designing clean architectures, improving system performance, and ensuring code quality,
+                  while collaborating with the team to deliver reliable, high-impact solutions.
                 </p>
 
                 <div className="tech-stack">
@@ -124,44 +125,77 @@ function App() {
               <li className="experience-card">
                 <div className="experience-header">
                     <h3 className="experience-title">
-                      Software Engineer · Staion
+                      Full stack developer · Freelance
                     </h3>
-                    <span className="experience-date">JUNE 2025 — PRESENT</span>
+                    <span className="experience-date">FEBRUARY 2024 — DECEMBER 2024</span>
                 </div>
 
                 <p className="experience-description">
-                  Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product.
-                  Work closely with cross-functional teams, including developers, designers, and product managers, to implement and
-                  advocate for best practices in web accessibility.
+                  As a freelance developer, I was responsible for delivering full-stack web solutions for digital projects, from initial planning to deployment.
+                  I collaborated closely with clients to understand their needs and translate them into functional, scalable applications.
                 </p>
 
                 <div className="tech-stack">
-                  <span className="tech-tag">JavaScript</span>
+                  <span className="tech-tag">Spring Boot</span>
                   <span className="tech-tag">React</span>
-                  <span className="tech-tag">Django</span>
+                  <span className="tech-tag">PostgreSQL</span>
                 </div>
               </li>
 
               <li className="experience-card">
                 <div className="experience-header">
                     <h3 className="experience-title">
-                      Software Engineer · Staion
+                      Software developer · Bancolombia
                     </h3>
-                    <span className="experience-date">JUNE 2025 — PRESENT</span>
+                    <span className="experience-date">JULY 2023 — JANUARY 2024</span>
                 </div>
 
                 <p className="experience-description">
-                  Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product.
-                  Work closely with cross-functional teams, including developers, designers, and product managers, to implement and
-                  advocate for best practices in web accessibility.
+                  I was part of the team responsible for building internal tools to support and optimize business processes. 
+                  I focused on improving user experience and helping deliver solutions that enhanced efficiency, reporting,
+                  and decision-making across the organization.
                 </p>
 
                 <div className="tech-stack">
-                  <span className="tech-tag">JavaScript</span>
-                  <span className="tech-tag">React</span>
-                  <span className="tech-tag">Django</span>
+                  <span className="tech-tag">Python</span>
+                  <span className="tech-tag">Django Rest Framework</span>
+                  <span className="tech-tag">Angular</span>
                 </div>
               </li>
+            </ul>
+          </div>
+
+          <div className='project-container' id='projects'>
+            <ul className='project-list'>
+              <a href='https://lomi.staion.com.co/' target="_blank" rel="noopener noreferrer" className='link-status'>
+                <li className='project-card'>
+                  
+                    <img
+                      src={ lomiPreview }
+                      alt="Project preview"
+                      className="preview-img"
+                    />
+                  
+
+                  <div className='project-content'>
+                    <div className='project-header'>
+                        <h3 className="project-title">
+                          LOMI
+                        </h3>
+                    </div>
+
+                    <p className="project-description">
+                      Lomi is the go to solution for brands that need a stunning fast loading website that not only looks great but drives real results.
+                    </p>
+
+                    <div className="tech-stack">
+                      <span className="tech-tag">JavaScript</span>
+                      <span className="tech-tag">React</span>
+                      <span className="tech-tag">Django</span>
+                    </div>
+                  </div>  
+                </li>
+              </a>
             </ul>
           </div>
         </div>
