@@ -76,7 +76,7 @@ function App() {
               </a>
 
               <a href="#experience">
-                <li href='' className={activeSection === 'experience' ? 'active-nav' : ''}>
+                <li className={activeSection === 'experience' ? 'active-nav' : ''}>
                   <span className='line-span'> </span>
                   <span className='navi-text'> Experience </span> 
                 </li>
