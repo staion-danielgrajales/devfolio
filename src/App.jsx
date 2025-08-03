@@ -73,7 +73,7 @@ function App() {
                 <span className='navi-text'> About </span> 
               </li>
 
-              <li className={activeSection === 'experience' ? 'active-nav' : ''}>
+              <li href='' className={activeSection === 'experience' ? 'active-nav' : ''}>
                 <span className='line-span'> </span>
                 <span className='navi-text'> Experience </span> 
               </li>
@@ -249,7 +249,7 @@ function App() {
                 </li>
               </a>
 
-              <a href='https://lomi.staion.com.co/' target='_blank' rel='noopener noreferrer' className='link-status'>
+              <a href='https://staion.com.co/' target='_blank' rel='noopener noreferrer' className='link-status'>
                 <li className='project-card'>
                   
                     <img
