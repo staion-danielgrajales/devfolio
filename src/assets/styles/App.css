@@ -120,10 +120,19 @@
 .active-nav .line-span {
     width: 40px;
     background-color: white;
+}
+  
+.active-nav .navi-text {
+    color: white;
+}
+
+.navi-container a {
+    text-decoration: none;
+    color: inherit;
   }
   
-  .active-nav .navi-text {
-    color: white;
+  .navi-container a:visited {
+    color: inherit;
   }
 
 /* Estilos para socials */

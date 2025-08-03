@@ -68,20 +68,26 @@ function App() {
 
           <div className='navi-container'>
             <ul>
-              <li className={activeSection === 'about' ? 'active-nav' : ''}>
-                <span className='line-span'> </span>
-                <span className='navi-text'> About </span> 
-              </li>
+              <a href="#about">
+                <li className={activeSection === 'about' ? 'active-nav' : ''}>
+                  <span className='line-span'> </span>
+                  <span className='navi-text'> About </span> 
+                </li>
+              </a>
 
-              <li href='' className={activeSection === 'experience' ? 'active-nav' : ''}>
-                <span className='line-span'> </span>
-                <span className='navi-text'> Experience </span> 
-              </li>
+              <a href="#experience">
+                <li href='' className={activeSection === 'experience' ? 'active-nav' : ''}>
+                  <span className='line-span'> </span>
+                  <span className='navi-text'> Experience </span> 
+                </li>
+              </a>
 
-              <li className={activeSection === 'projects' ? 'active-nav' : ''}>
-                <span className='line-span'> </span>
-                <span className='navi-text'> Project </span> 
-              </li>
+              <a href="#projects">
+                <li className={activeSection === 'projects' ? 'active-nav' : ''}>
+                  <span className='line-span'> </span>
+                  <span className='navi-text'> Project </span> 
+                </li>
+              </a>
             </ul>
           </div>
 
